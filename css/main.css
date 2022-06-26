@@ -87,6 +87,9 @@ ul {
   position: relative;
   color: var(--prime-color);
 }
+.navigation__item > .curent {
+  color: var(--accent-color);
+}
 
 .logo--blue {
   color: var(--accent-color);
@@ -120,10 +123,6 @@ ul {
   top: 38px;
   background: var(--accent-color);
   border-radius: 2px;
-}
-
-.navigation-item > .curent {
-  color: var(--accent-color);
 }
 
 .contacts {

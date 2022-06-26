@@ -49,6 +49,9 @@
     position: relative;
     color: var(--prime-color);
   }
+  & > .curent {
+    color: var(--accent-color);
+  }
 }
 
 .logo--blue {
@@ -87,9 +90,6 @@
 
   background: var(--accent-color);
   border-radius: 2px;
-}
-.navigation-item > .curent {
-  color: var(--accent-color);
 }
 
 .contacts {
